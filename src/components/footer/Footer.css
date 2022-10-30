@@ -1,0 +1,71 @@
+.f_logo
+{
+  height: 100px;
+}
+.sec1_txt{
+  color: white;
+  font-size: 15px;
+  width: 320px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.sec1{
+  text-align: left;
+}
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  /* height:300px; */
+  flex-wrap: wrap;
+  padding: 30px;
+  background-color: rgb(26, 115, 247);
+}
+
+
+.f_logos{
+  margin-top: 10px;
+
+}
+.icon_f{
+  color: white;
+  
+  margin-right: 10px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.sec2_head{
+  font-size: 25px;
+  padding: 10px;
+  border: 1px solid white;
+  font-weight: 200;
+  color: white;
+  
+}
+.btn_footer{
+  background-color: white;
+  color: rgb(26, 115, 247);
+  width: 120px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+  font-weight: bolder;
+}
+.sec2_body{
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  
+  margin-top: 20px;
+}
+.btn_footer_a{
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  width: 120px;
+  text-align: center;
+  margin-top: 30px;
+}
+.sec1,.sec2,.sec3{
+  margin: 30px;
+}
