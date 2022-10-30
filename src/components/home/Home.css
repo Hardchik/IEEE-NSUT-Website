@@ -1,0 +1,151 @@
+
+@media screen and (min-width:720px) {
+    .home_anime{
+        width: 600px;
+    }
+    
+}
+@media screen and (max-width:720px) {
+    .home_anime{
+        width: 320px;
+    }
+    
+}
+
+.home{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+
+
+.home_btn:hover{
+    width: 120px;
+    background-color: rgba(255, 255, 255, 0.492);
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bolder;
+    margin-top: 30px;
+    border: 1px solid rgb(26, 115, 247);
+    color: rgb(26, 115, 247);
+    transition: 300ms ease;
+}
+
+.icon_coll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    justify-content: space-evenly;
+    margin-left: -5px;
+}
+.line{
+    background-color: black;
+    width: 2px;
+    height: 40vh;
+   
+}
+.icons_home{
+    position: absolute ;
+    left: 20px;
+    top: 30px;
+}
+
+@media screen and (min-width:1019px) {
+    .abt_home{
+        width: 320px;
+        text-align: left;
+        font-weight: 500;
+        margin-top: 30px;
+    }
+    .home_head{
+        font-size: 40px;
+        font-weight: bolder;
+        text-align: left;
+    }
+    .home_sec{
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(26, 115, 247);
+    }
+    .home_btn{
+        background-color: rgb(26, 115, 247);
+        width: 120px;
+        color: white;
+        border-radius: 7px;
+        padding: 10px;
+        font-weight: bolder;
+        margin-top: 30px;
+    }
+}
+@media screen and (min-width:633px) and (max-width:1019px) {
+    .abt_home{
+        width: 320px;
+        text-align: center;
+        font-weight: 500;
+        margin-top: 30px;
+    }
+    .home_head{
+        font-size: 40px;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .home_sec{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(26, 115, 247);
+    }
+    .home_btn{
+        background-color: rgb(26, 115, 247);
+        width: 120px;
+        color: white;
+        padding: 10px;
+        font-weight: bolder;
+        border-radius: 7px;
+        margin: auto;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:633px) {
+    .abt_home{
+        width: 280px;
+        text-align: center;
+        font-weight: 500;
+        margin-top: 30px;
+    }
+    .home_head{
+        font-size: 30px;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .home_sec{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(26, 115, 247);
+    }
+    .home_btn{
+        background-color: rgb(26, 115, 247);
+        width: 120px;
+        color: white;
+        padding: 10px;
+        border-radius: 7px;
+        font-weight: bolder;
+        margin: auto;
+        margin-top: 30px;
+    }
+}
+.home_btn{
+    text-align: center;
+    border-radius: 7px;
+    border: 1px solid rgb(26, 115, 247);
+}
+.home_btn a{
+    color: white;
+}

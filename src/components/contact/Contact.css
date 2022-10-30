@@ -1,0 +1,82 @@
+
+@media screen and (min-width:720px) {
+    .c_anime{
+        width: 500px;
+    }
+    
+}
+@media screen and (max-width:720px) {
+    .c_anime{
+        width: 320px;
+    }
+    
+}
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 60px
+}
+.left_contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.f_con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.left_contact{
+    font-weight: bolder;
+}
+.contact_h{
+    color: #1b72f7;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: -3px;
+}
+.contact_b{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.name_field{
+    border: 1px solid #1b72f7;;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 270px;
+}
+.form_sbt{
+    width: 120px;
+    background-color: #1b72f7;
+    color: white;
+    padding: 10px;
+    border: transparent;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.form_sbt:hover{
+    width: 120px;
+
+    background-color: rgba(8, 84, 199, 0.514);
+    color: white;
+    padding: 10px;
+    border: transparent;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+    
+.input_wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
